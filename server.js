@@ -6,7 +6,7 @@ const app = express()
 const hostname = 'https://brandonmutizapirest.herokuapp.com';
 const PORT = process.env.PORT || 5000
 
-let jugadores = ['BranndonGame', 'EstebanLGTBI', 'JuanChote9712', 'MiderosPro'];
+let users = ['BranndonGame', 'EstebanLGTBI', 'JuanChote9712', 'MiderosPro'];
 let niveles = ['juvenil', 'profesional', 'estrella', 'leyenda'];
 
 
@@ -25,8 +25,8 @@ app.get('/', (req, res) => {
 
 // URL para listar todos los usuarios
 // http://127.0.0.1:5000/users
-app.get('/jugadores', (req, res) => {
-    res.send(jugadores)
+app.get('/users', (req, res) => {
+    res.send(users)
 })
 
 // URL para añadir un usuario
