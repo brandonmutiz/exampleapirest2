@@ -9,28 +9,7 @@ const PORT = process.env.PORT || 5000
 let users = ['BranndonGame', 'EstebanLGTBI', 'JuanChote9712', 'MiderosPro'];
 let niveles = ['juvenil', 'profesional', 'estrella', 'leyenda'];
 
-let mundialitoscore= [{id:1,nivel: 'juvenil',preguntas:[{id : 1, 
-						nom_preg:'¿En qué país se celebró la  primera edición de la Copa del Mundo de fútbol?', 
-						respuestas: [{id: 1,titulo_resp:'Francia',estado:'0'},
-									{id: 2 ,titulo_resp:'Inglaterra',estado:'0'},
-									{id: 3 ,titulo_resp:'Uruguay',estado:'1'},
-									{id: 4 ,titulo_resp:'Holanda',estado:'0'}
-														}																		
-									]
-																				
-														
-														 
-									
-																												
-									
-									
-									                     ]
-														 
-														 
-														 
-						}		
-						
-                     ];
+
 
 
 
@@ -54,9 +33,7 @@ app.get('/users', (req, res) => {
 
 // URL para listar todos los mundialitos
 // http://127.0.0.1:5000/mundialitoscore
-app.get('/mundialitoscore', (req, res) => {
-    res.send(mundialitoscore)
-})
+
 
 // URL para añadir un usuario
 // http://127.0.0.1:5000/users
