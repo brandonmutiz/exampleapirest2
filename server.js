@@ -36,7 +36,7 @@ let mundialitoscore= [
 			},
 			{
 				id: 4 ,
-			titulo_resp:'Holanda',
+			titulo_resp:'Holandaa',
 			estado:'0'
 			}
 																																
