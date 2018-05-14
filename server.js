@@ -232,7 +232,130 @@ let mundialitoscore= [
 																																
 		]
 
+														},
+
+
+
+			{			
+
+			id : 2, 
+			nom_preg:'¿El entrenador que ha ganado dos veces seguidas el mundial?', 
+			respuestas: [
+			{
+				id: 1,
+				titulo_resp:'Vittorio Pozo',
+				estado:'1'
+			},
+			{
+				id: 2 ,
+				titulo_resp:'Luis Parreira',
+				estado:'0'
+			},
+			{
+				id: 3 ,
+				titulo_resp:'Helmut Schön',
+				estado:'0'
+			},
+			{
+				id: 4 ,
+			titulo_resp:'Luis Aragonés',
+			estado:'0'
+			}
+																																
+		]
+
+														},
+
+			{			
+
+			id : 1, 
+			nom_preg:'¿El jugador más veterano en participar en un mundial fue?', 
+			respuestas: [
+			{
+				id: 1,
+				titulo_resp:'Eusebio',
+				estado:'0'
+			},
+			{
+				id: 2 ,
+				titulo_resp:'Helmut Haller',
+				estado:'0'
+			},
+			{
+				id: 3 ,
+				titulo_resp:'Roger Milla',
+				estado:'1'
+			},
+			{
+				id: 4 ,
+			titulo_resp:'Roger Hunt',
+			estado:'0'
+			}
+																																
+		]
+
+														},
+			{			
+
+			id : 1, 
+			nom_preg:'¿El jugador más veterano en participar en un mundial fue?', 
+			respuestas: [
+			{
+				id: 1,
+				titulo_resp:'Eusebio',
+				estado:'0'
+			},
+			{
+				id: 2 ,
+				titulo_resp:'Helmut Haller',
+				estado:'0'
+			},
+			{
+				id: 3 ,
+				titulo_resp:'Roger Milla',
+				estado:'1'
+			},
+			{
+				id: 4 ,
+			titulo_resp:'Roger Hunt',
+			estado:'0'
+			}
+																																
+		]
+
+														},
+			{			
+
+			id : 1, 
+			nom_preg:'¿El jugador más veterano en participar en un mundial fue?', 
+			respuestas: [
+			{
+				id: 1,
+				titulo_resp:'Eusebio',
+				estado:'0'
+			},
+			{
+				id: 2 ,
+				titulo_resp:'Helmut Haller',
+				estado:'0'
+			},
+			{
+				id: 3 ,
+				titulo_resp:'Roger Milla',
+				estado:'1'
+			},
+			{
+				id: 4 ,
+			titulo_resp:'Roger Hunt',
+			estado:'0'
+			}
+																																
+		]
+
 														}
+
+
+
 
 
 
