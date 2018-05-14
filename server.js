@@ -181,30 +181,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
-														id : 1, 
-			nom_preg:'¿Cuál es el jugador con la expulsión más rápida con 52 segundos en la historia de los mundiales?', 
-			respuestas: [
-			{
-				id: 1,
-				titulo_resp:'José Batista',
-				estado:'1'
-			},
-			{
-				id: 2 ,
-				titulo_resp:'Jorge Valdano',
-				estado:'0'
-			},
-			{
-				id: 3 ,
-				titulo_resp:'Enzo Scifo',
-				estado:'0'
-			},
-			{
-				id: 4 ,
-			titulo_resp:'Gary Lineker',
-			estado:'0'
-			}
+														}
 
 
 
