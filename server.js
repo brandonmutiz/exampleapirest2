@@ -40,14 +40,10 @@ let mundialitoscore= [
 			titulo_resp:'Holanda',
 			estado:'0'
 			}
-
-
-
-
 																																
 		]
 
-														},
+			},
 
 			{			
 
@@ -75,13 +71,10 @@ let mundialitoscore= [
 			estado:'0'
 			}
 
-
-
-
-																																
+																															
 		]
 
-														},
+			},
 
 			{			
 
@@ -109,13 +102,10 @@ let mundialitoscore= [
 			estado:'0'
 			}
 
-
-
-
-																																
+																														
 		]
 
-														},
+			},
 
 				{			
 
@@ -143,13 +133,10 @@ let mundialitoscore= [
 			estado:'0'
 			}
 
-
-
-
-																																
+																														
 		]
 
-														},
+			},
 
 			{			
 
@@ -177,30 +164,19 @@ let mundialitoscore= [
 			estado:'0'
 			}
 
-
-
-
 																																
 		]
-
-														}
-
-
-
-
-
-
-									
-																												
+			}
+																											
 									
 									
-									                     ]
+			 ]													 
+														 
+														 
+		},	
 
+		{
 
-														 
-														 
-														 
-						},	{
 		id:2,
 		nivel: 'profesional',
 		preguntas:[
@@ -232,10 +208,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
-
-
-
+		},
 			{			
 
 			id : 2, 
@@ -264,7 +237,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 
 			{			
 
@@ -294,7 +267,8 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
+
 			{			
 
 			id : 4, 
@@ -323,7 +297,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 			{			
 
 			id : 5, 
@@ -352,24 +326,16 @@ let mundialitoscore= [
 																																
 		]
 
-														}
+			}
 
-
-
-
-
-
-														
-														 
-									
-																												
-									
-									
-									                     ]
+											
+			  ]
 														 
 														 
 														 
-						},	{
+		},	
+		{
+
 		id:3,
 		nivel: 'estrella',
 		preguntas:[
@@ -401,7 +367,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 			{			
 
 			id : 2, 
@@ -430,7 +396,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 			{			
 
 			id : 3, 
@@ -459,7 +425,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 			{			
 
 			id : 4, 
@@ -488,7 +454,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 			{			
 
 			id : 5, 
@@ -517,21 +483,18 @@ let mundialitoscore= [
 																																
 		]
 
-														}
+			}
+																								
+									
+									
+			 ]
+														 
+														 
+														 
+			},
+		{
 
 
-														
-														 
-									
-																												
-									
-									
-									                     ]
-														 
-														 
-														 
-						},
-						{
 		id:4,
 		nivel: 'leyenda',
 		preguntas:[
@@ -564,7 +527,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 
 			{			
 
@@ -595,7 +558,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 			{			
 
 			id : 3, 
@@ -625,7 +588,7 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 			{			
 
 			id : 4, 
@@ -655,10 +618,10 @@ let mundialitoscore= [
 																																
 		]
 
-														},
+			},
 			{			
 
-			id : 1, 
+			id : 5, 
 			nom_preg:'¿Qué jugador marco el primer autogol de la historia?', 
 			respuestas: [
 			{
@@ -685,19 +648,17 @@ let mundialitoscore= [
 																																
 		]
 
-														} 
-									
+			}
 																							
-									
-									
-									                     ]
+				
+			 ]
 														 
 														 
 														 
-						}
+			}
 
 						
-                     ];
+        ];
 
 
 
@@ -713,12 +674,12 @@ app.get('/', (req, res) => {
     res.status(200).send("BIENVENDO A API REST")
 })
 
-// URL para listar todos los usuarios
-// http://127.0.0.1:5000/users
-app.get('/users', (req, res) => {
-    res.send(users)
-})
 
+// URL para listar todos los mundialitos
+// http://127.0.0.1:5000/mundialitoscore
+app.get('/mundialitoscore', (req, res) => {
+    res.send(mundialitoscore)
+})
 
 // URL para listar todos los niveles
 // http://127.0.0.1:5000/niveles
@@ -726,16 +687,17 @@ app.get('/niveles', (req, res) => {
     res.send(niveles)
 })
 
+
+// URL para listar todos los usuarios
+// http://127.0.0.1:5000/users
+app.get('/users', (req, res) => {
+    res.send(users)
+})
+
 // URL para listar todos los estados
 // http://127.0.0.1:5000/niveles
 app.get('/estado', (req, res) => {
     res.send(estado)
-})
-
-// URL para listar todos los mundialitos
-// http://127.0.0.1:5000/mundialitoscore
-app.get('/mundialitoscore', (req, res) => {
-    res.send(mundialitoscore)
 })
 
 // URL para añadir un usuario
