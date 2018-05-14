@@ -86,26 +86,60 @@ let mundialitoscore= [
 			{			
 
 			id : 3, 
-			nom_preg:'¿El mejor gol de la historia de los mundiales es una obra del jugador?', 
+			nom_preg:'¿Qué selección de futbol ha participado en todos los mundiales?', 
 			respuestas: [
 			{
 				id: 1,
-				titulo_resp:'Terry Butcher',
+				titulo_resp:'Alemania',
 				estado:'0'
 			},
 			{
 				id: 2 ,
-				titulo_resp:'Gary Lineker',
+				titulo_resp:'Argentina',
 				estado:'0'
 			},
 			{
 				id: 3 ,
-				titulo_resp:'Diego Maradona',
+				titulo_resp:'Brasil',
 				estado:'1'
 			},
 			{
 				id: 4 ,
-			titulo_resp:'Jose Batista',
+			titulo_resp:'Francia',
+			estado:'0'
+			}
+
+
+
+
+																																
+		]
+
+														},
+
+				{			
+
+			id : 4, 
+			nom_preg:'¿Qué selección ha ganado en cinco veces esta competición?', 
+			respuestas: [
+			{
+				id: 1,
+				titulo_resp:'Uruguay',
+				estado:'0'
+			},
+			{
+				id: 2 ,
+				titulo_resp:'Alemania',
+				estado:'0'
+			},
+			{
+				id: 3 ,
+				titulo_resp:'Brasil',
+				estado:'1'
+			},
+			{
+				id: 4 ,
+			titulo_resp:'Italia',
 			estado:'0'
 			}
 
@@ -116,6 +150,8 @@ let mundialitoscore= [
 		]
 
 														}
+
+
 
 
 
