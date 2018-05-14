@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const http = require('http')
 const app = express()
 
-const hostname = '127.0.0.1';
+const hostname = 'https://brandonmutizapirest.herokuapp.com';
 const PORT = process.env.PORT || 5000
 
 let jugadores = ['BranndonGame', 'EstebanLGTBI', 'JuanChote9712', 'MiderosPro'];
