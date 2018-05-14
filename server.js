@@ -65,8 +65,7 @@ let mundialitoscore= [
 				estado:'0'}
 
 																																				 
-									
-																												
+																																			
 									
 									
 									                     ]
