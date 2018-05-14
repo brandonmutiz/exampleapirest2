@@ -102,7 +102,50 @@ let mundialitoscore= [
 														 
 														 
 														 
-						}	
+						},	
+						{			
+
+			id : 1, 
+			nom_preg:'¿En qué país se celebró la  primera edición de la Copa del Mundo de fútbol?', 
+			respuestas: [
+			{
+				id: 1,
+				titulo_resp:'Francia',
+				estado:'0'
+			},
+			{
+				id: 2 ,
+				titulo_resp:'Inglaterra',
+				estado:'0'
+			},
+			{
+				id: 3 ,
+				titulo_resp:'Uruguay',
+				estado:'1'
+			},
+			{
+				id: 4 ,
+			titulo_resp:'Holanda',
+			estado:'0'
+			}
+																																
+		]
+
+														}
+
+
+
+														
+														 
+									
+																												
+									
+									
+									                     ]
+														 
+														 
+														 
+						}
 						
                      ];
 
