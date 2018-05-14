@@ -38,7 +38,23 @@ let mundialitoscore= [
 				id: 4 ,
 			titulo_resp:'Holandaa',
 			estado:'0'
-			}
+			},
+
+			id : 2, 
+			nom_preg:'¿El mejor gol de la historia de los mundiales es una obra del jugador?', 
+			respuestas: [
+			{
+				id: 1,titulo_resp:'Terry Butcher',
+				estado:'0'},
+									{id: 2 ,titulo_resp:'Gary Lineker ',estado:'0'},
+									{id: 3 ,titulo_resp:'Diego Maradona',estado:'1'},
+									{id: 4 ,titulo_resp:'Jose Batista',estado:'0'}
+														
+
+
+
+
+
 																																
 		]
 
@@ -52,8 +68,8 @@ let mundialitoscore= [
 														 
 														 
 						},	{
-		id:1,
-		nivel: 'juvenil',
+		id:2,
+		nivel: 'profesional',
 		preguntas:[
 		{			
 
@@ -98,8 +114,8 @@ let mundialitoscore= [
 														 
 														 
 						},	{
-		id:1,
-		nivel: 'juvenil',
+		id:3,
+		nivel: 'estrella',
 		preguntas:[
 		{			
 
@@ -145,8 +161,8 @@ let mundialitoscore= [
 														 
 						},
 						{
-		id:1,
-		nivel: 'juvenil',
+		id:4,
+		nivel: 'leyenda',
 		preguntas:[
 		{			
 
