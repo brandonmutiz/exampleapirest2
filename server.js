@@ -37,7 +37,7 @@ app.post('/users', (req, res) => {
     users.push(data.user_name)
     res.send("New user add")
 })
-/*
+
 // URL para actualizar un usuario
 // http://127.0.0.1:5000/users/1
 app.patch('/users/:id',(req, res) => {
@@ -54,7 +54,7 @@ app.delete('/users/:id',(req, res) => {
     users.splice(params.id, 1);
     res.send('User delete')
 })
-*/
+
 // ********************************************************************
 // ********************************************************************
 
