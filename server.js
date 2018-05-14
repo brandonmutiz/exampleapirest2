@@ -25,19 +25,19 @@ app.get('/', (req, res) => {
 
 // URL para listar todos los usuarios
 // http://127.0.0.1:5000/users
-app.get('/users', (req, res) => {
-    res.send(users)
+app.get('/jugadores', (req, res) => {
+    res.send(jugadores)
 })
 
 // URL para añadir un usuario
 // http://127.0.0.1:5000/users
-/*
+
 app.post('/users', (req, res) => {
     let data = req.query;
     users.push(data.user_name)
     res.send("New user add")
 })
-
+/*
 // URL para actualizar un usuario
 // http://127.0.0.1:5000/users/1
 app.patch('/users/:id',(req, res) => {
