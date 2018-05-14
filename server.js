@@ -40,7 +40,7 @@ let mundialitoscore= [
 			estado:'0'
 			}
 
-			
+
 
 
 																																
@@ -62,26 +62,26 @@ let mundialitoscore= [
 		{			
 
 			id : 1, 
-			nom_preg:'¿En qué país se celebró la  primera edición de la Copa del Mundo de fútbol?', 
+			nom_preg:'¿El jugador más veterano en participar en un mundial fue?', 
 			respuestas: [
 			{
 				id: 1,
-				titulo_resp:'Francia',
+				titulo_resp:'Eusebio',
 				estado:'0'
 			},
 			{
 				id: 2 ,
-				titulo_resp:'Inglaterra',
+				titulo_resp:'Helmut Haller',
 				estado:'0'
 			},
 			{
 				id: 3 ,
-				titulo_resp:'Uruguay',
+				titulo_resp:'Roger Milla',
 				estado:'1'
 			},
 			{
 				id: 4 ,
-			titulo_resp:'Holanda',
+			titulo_resp:'Roger Hunt',
 			estado:'0'
 			}
 																																
@@ -108,11 +108,11 @@ let mundialitoscore= [
 		{			
 
 			id : 1, 
-			nom_preg:'¿En qué país se celebró la  primera edición de la Copa del Mundo de fútbol?', 
+			nom_preg:'¿Cuál es  la selección que más finales ha jugado y que no ha ganado ninguna?', 
 			respuestas: [
 			{
 				id: 1,
-				titulo_resp:'Francia',
+				titulo_resp:'Belgica',
 				estado:'0'
 			},
 			{
@@ -122,13 +122,13 @@ let mundialitoscore= [
 			},
 			{
 				id: 3 ,
-				titulo_resp:'Uruguay',
-				estado:'1'
+				titulo_resp:'Alemania',
+				estado:'0'
 			},
 			{
 				id: 4 ,
-			titulo_resp:'Holande',
-			estado:'0'
+			titulo_resp:'Holanda',
+			estado:'1'
 			}
 																																
 		]
@@ -155,26 +155,26 @@ let mundialitoscore= [
 		{			
 
 			id : 1, 
-			nom_preg:'¿En qué país se celebró la  primera edición de la Copa del Mundo de fútbol?', 
+			nom_preg:'¿Cuál es el jugador con la expulsión más rápida con 52 segundos en la historia de los mundiales?', 
 			respuestas: [
 			{
 				id: 1,
-				titulo_resp:'Francia',
-				estado:'0'
+				titulo_resp:'José Batista',
+				estado:'1'
 			},
 			{
 				id: 2 ,
-				titulo_resp:'Inglaterra',
+				titulo_resp:'Jorge Valdano',
 				estado:'0'
 			},
 			{
 				id: 3 ,
-				titulo_resp:'Uruguay',
-				estado:'1'
+				titulo_resp:'Enzo Scifo',
+				estado:'0'
 			},
 			{
 				id: 4 ,
-			titulo_resp:'Holando',
+			titulo_resp:'Gary Lineker',
 			estado:'0'
 			}
 																																
