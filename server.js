@@ -149,6 +149,40 @@ let mundialitoscore= [
 																																
 		]
 
+														},
+
+			{			
+
+			id : 5, 
+			nom_preg:'¿Cuál es goleador histórico de los mundiales?', 
+			respuestas: [
+			{
+				id: 1,
+				titulo_resp:'Diego Maradona',
+				estado:'0'
+			},
+			{
+				id: 2 ,
+				titulo_resp:'Pele',
+				estado:'0'
+			},
+			{
+				id: 3 ,
+				titulo_resp:'Ronaldo',
+				estado:'1'
+			},
+			{
+				id: 4 ,
+			titulo_resp:'Messi',
+			estado:'0'
+			}
+
+
+
+
+																																
+		]
+
 														}
 
 
