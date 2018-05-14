@@ -6,7 +6,7 @@ const app = express()
 const hostname = 'https://brandonmutizapirest.herokuapp.com';
 const PORT = process.env.PORT || 5000
 
-let users = ['BranndonGame', 'EstebanLGTBI', 'JuanChote9712', 'MiderosPro'];
+let users = ['BranndonGame', 'EstebanLGTBI', 'JuanChote9712',];
 let niveles = ['juvenil', 'profesional', 'estrella', 'leyenda'];
 
 let mundialitoscore= [
@@ -52,6 +52,8 @@ let mundialitoscore= [
 									
 									
 									                     ]
+
+
 														 
 														 
 														 
@@ -218,6 +220,13 @@ app.get('/', (req, res) => {
 // http://127.0.0.1:5000/users
 app.get('/users', (req, res) => {
     res.send(users)
+})
+
+
+// URL para listar todos los niveles
+// http://127.0.0.1:5000/niveles
+app.get('/niveles', (req, res) => {
+    res.send(niveles)
 })
 
 // URL para listar todos los mundialitos
