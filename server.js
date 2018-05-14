@@ -48,8 +48,8 @@ let mundialitoscore= [
 
 														},
 
-
-			id : 2, 
+																											 
+				id : 1, 
 			nom_preg:'¿En qué país se celebró la  primera edición de la Copa del Mundo de fútbol?', 
 			respuestas: [
 			{
@@ -71,18 +71,7 @@ let mundialitoscore= [
 				id: 4 ,
 			titulo_resp:'Holandaa',
 			estado:'0'
-			}
-
-
-
-
-																																
-		]
-
-														}
-
-
-									
+			}					
 																												
 									
 									
